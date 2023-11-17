@@ -41,3 +41,13 @@ for i in range(1, n + 1):
 
 print(f"La factorielle de {n} est : {factorielle}")
 
+#Programme qui vérifie si un mot saisi par l'utilisateur est un palindrome.
+
+mot = input("Entrez un mot : ")
+mot_inverse = ''.join(reversed(mot))
+if mot == mot_inverse:
+    print("C'est un palindrome !")
+else:
+    print("Ce n'est pas un palindrome.")
+
+#Programme qui génère et affiche un carré magique d'ordre N (N est un nombre impair) en utilisant une boucle.
