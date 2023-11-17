@@ -1,4 +1,4 @@
-# EXERCICES DU 10/11/2023
+# 👉 EXERCICES DU 10/11/2023
 
 # Fonction “multiplie” qui multiplie deux nombres en paramètre par additions successives.
 
@@ -27,9 +27,9 @@ d = 8
 print(puissance(c, d))
 
 
-# EXERCICES DU 17/11/2023
+# 👉 EXERCICES DU 17/11/2023
 
-#Exercices Faciles
+# ➡️ Exercices Faciles
 
 # Somme des nombres
 
@@ -63,7 +63,7 @@ def afficher_pair_impair():
             print(f"{nombre} est impair.")
 afficher_pair_impair()
 
-#Exercices Intermédiaires
+# ➡️ Exercices Intermédiaires
 
 #Factorielle
 
