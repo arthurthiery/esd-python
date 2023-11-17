@@ -58,7 +58,8 @@ for nombre in range(1, 11):
     else:
         print(f"{nombre} est un nombre impair.")
 
-#Exercices Intermédiaire
+
+#Exercices Intermédiaires
 
 #Programme qui demande à l'utilisateur un nombre entier N, puis calcule et affiche la factorielle de N en utilisant une boucle.
 
