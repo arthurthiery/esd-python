@@ -32,7 +32,7 @@ print(puissance(c, d))
 
 # EXERCICES DU 17/11/2023
 
-#Exercices faciles
+#Exercices Faciles
 
 # Somme des nombres
 
@@ -58,6 +58,7 @@ for nombre in range(1, 11):
     else:
         print(f"{nombre} est un nombre impair.")
 
+#Exercices Intermédiaire
 
 #Programme qui demande à l'utilisateur un nombre entier N, puis calcule et affiche la factorielle de N en utilisant une boucle.
 
