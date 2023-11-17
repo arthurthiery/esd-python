@@ -1,3 +1,5 @@
+# EXERCICES DU 10/11/2023
+
 # Fonction “multiplie” qui multiplie deux nombres en paramètre par additions successives.
 
 def multiplie(a, b):
@@ -26,3 +28,16 @@ def puissance(c, d):
 c = 3
 d = 8
 print(puissance(c, d))
+
+
+# EXERCICES DU 17/11/2023
+
+#Programme qui demande à l'utilisateur un nombre entier N, puis calcule et affiche la factorielle de N en utilisant une boucle.
+
+n = int(input("Entrez un nombre entier N : "))
+factorielle = 1
+for i in range(1, n + 1):
+    factorielle *= i
+
+print(f"La factorielle de {n} est : {factorielle}")
+
