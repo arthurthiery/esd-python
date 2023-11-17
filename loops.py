@@ -2,8 +2,10 @@
 
 def multiplie(a, b):
     resultat = 0
-    for i in range(a):
+    i = 0
+    while i < a:
         resultat += b
+        i += 1
     return resultat
 
 a = 5
@@ -13,10 +15,12 @@ print(multiplie(a, b))
 
 # Fonction “puissance” qui calcule les puissances par multiplication successives.
 
-def puissance(base, exposant):
+def puissance(c, d):
     resultat = 1
-    for i in range(c):
+    i = 0
+    while i < c:
         resultat *= d
+        i += 1
     return resultat
 
 c = 3
