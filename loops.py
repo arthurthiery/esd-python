@@ -15,10 +15,10 @@ print(multiplie(a, b))
 
 def puissance(base, exposant):
     resultat = 1
-    for i in range(exposant):
-        resultat *= base
+    for i in range(c):
+        resultat *= d
     return resultat
 
-a = 3
-b = 8
-print(puissance(a, b))
+c = 3
+d = 8
+print(puissance(c, d))
