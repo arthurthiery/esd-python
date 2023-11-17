@@ -32,13 +32,39 @@ print(puissance(c, d))
 
 # EXERCICES DU 17/11/2023
 
+#Exercices faciles
+
+# Somme des nombres
+
+N = int(input("Entrez un nombre entier N : "))
+somme = 0
+for i in range(1, N + 1):
+    somme += i
+print(f"La somme des nombres de 1 à {N} est : {somme}")
+
+# Table de Multiplication
+
+N = int(input("Entrez un nombre entier N pour la table de multiplication : "))
+print(f"Table de multiplication de {N} :")
+for i in range(1, 11):
+    resultat = N * i
+    print(f"{N} x {i} = {resultat}")
+
+# Compteur Pair/Impair
+
+for nombre in range(1, 11):
+    if nombre % 2 == 0:
+        print(f"{nombre} est un nombre pair.")
+    else:
+        print(f"{nombre} est un nombre impair.")
+
+
 #Programme qui demande à l'utilisateur un nombre entier N, puis calcule et affiche la factorielle de N en utilisant une boucle.
 
 n = int(input("Entrez un nombre entier N : "))
 factorielle = 1
 for i in range(1, n + 1):
     factorielle *= i
-
 print(f"La factorielle de {n} est : {factorielle}")
 
 #Programme qui vérifie si un mot saisi par l'utilisateur est un palindrome.
@@ -49,5 +75,3 @@ if mot == mot_inverse:
     print("C'est un palindrome !")
 else:
     print("Ce n'est pas un palindrome.")
-
-#Programme qui génère et affiche un carré magique d'ordre N (N est un nombre impair) en utilisant une boucle.
