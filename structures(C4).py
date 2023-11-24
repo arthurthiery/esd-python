@@ -1,4 +1,4 @@
-#COURS DU 24/11
+#COURS DU 24/11 (partie 1)
 
 
 # Exercie 1
