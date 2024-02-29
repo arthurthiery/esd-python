@@ -1,3 +1,7 @@
+#Jeu de Puissance 4 avec deux joueurs (X et 0).
+#Pour gagner 4 pions doivent être aligné horizontalement, verticalement ou diagonalement.
+#Le jeu se joue sur le terminal en tour par tour.
+
 # Définir la taille du plateau et le nombre de pions nécessaires pour gagner
 taille_grille = 7
 pions_pour_gagner = 4
